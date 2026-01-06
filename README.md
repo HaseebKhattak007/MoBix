@@ -75,7 +75,7 @@ MoBix/
 cd backend
 npm install
 ```
-Create a `.env` file in the `backend/` directory:
+Created a `.env` file in the `backend/` directory:
 ```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
@@ -128,5 +128,4 @@ npm run dev
 
 ---
 
-## 📝 License
-This project is developed as part of an Internship project. All rights reserved.
+This project is developed as part of an Internship project.
