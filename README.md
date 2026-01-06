@@ -109,8 +109,9 @@ npm run dev
 ![Product Grid](ScreenShots/Home-page-2.png)
 ![Product Grid](ScreenShots/Home-page-3.png)
 ![Product Grid](ScreenShots/Home-page-4.png)
+![Product Grid](ScreenShots/Home-page-5.png)
 3. **Brands Section** - Professional brand showcasing.
-![Brands](ScreenShots/Home-page-5.png)
+![Brands](ScreenShots/Brands-page.png)
 
 ### 🛒 User Experience
 4. **Shopping Cart** - Multi-product management and checkout flow.
