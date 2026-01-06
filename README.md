@@ -103,28 +103,28 @@ npm run dev
 
 ### 🏠 Home & Features
 1. **Hero Section** - Dynamic and immersive animations.
-![Homepage](screenshots/Home-page-1.png)
+![Homepage](ScreenShots/Home-page-1.png)
 
 2. **Featured Products** - Elegant product grid with quick actions.
-![Product Grid](screenshots/Home-page-2.png)
-![Product Grid](screenshots/Home-page-3.png)
-![Product Grid](screenshots/Home-page-4.png)
+![Product Grid](ScreenShots/Home-page-2.png)
+![Product Grid](ScreenShots/Home-page-3.png)
+![Product Grid](ScreenShots/Home-page-4.png)
 3. **Brands Section** - Professional brand showcasing.
-![Brands](screenshots/Home-page-5.png)
+![Brands](ScreenShots/Home-page-5.png)
 
 ### 🛒 User Experience
 4. **Shopping Cart** - Multi-product management and checkout flow.
-![Cart Page](screenshots/Cart-page.png)
+![Cart Page](ScreenShots/Cart-page.png)
 
 5. **Wishlist** - Save your favorites for later.
-![Wishlist Page](screenshots/Wishlist-page.png)
+![Wishlist Page](ScreenShots/Wishlist-page.png)
 
 6. **Account Page** - Personal profile and activity log.
-![Account Page](screenshots/Account-page.png)
+![Account Page](ScreenShots/Account-page.png)
 
 ### 🌓 Aesthetics
 7. **Premium Dark Mode** - Sleek, high-contrast digital experience.
-![Dark Mode](screenshots/Darkmode.png)
+![Dark Mode](ScreenShots/Darkmode.png)
 
 ---
 
