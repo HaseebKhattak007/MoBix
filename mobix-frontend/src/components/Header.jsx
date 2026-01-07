@@ -43,10 +43,10 @@ const Header = () => {
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                     />
-                    <div className="px-6 py-4 border-l border-gray-300 dark:border-gray-700 flex items-center gap-2 cursor-pointer text-gray-600 dark:text-gray-400 hover:text-primary transition whitespace-nowrap hidden lg:flex font-medium">
+                    {/* <div className="px-6 py-4 border-l border-gray-300 dark:border-gray-700 flex items-center gap-2 cursor-pointer text-gray-600 dark:text-gray-400 hover:text-primary transition whitespace-nowrap hidden lg:flex font-medium">
                         <span>All Categories</span>
                         <FaChevronDown className="text-[10px]" />
-                    </div>
+                    </div> */}
                     <button
                         type="submit"
                         className="bg-primary text-white px-8 py-5 hover:bg-opacity-90 transition shadow-lg shadow-primary/20 active:scale-95"

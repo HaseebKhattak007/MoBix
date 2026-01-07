@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import { useApp } from "../context/AppContext";
 import { FaTrash, FaPlus, FaMinus, FaArrowLeft } from "react-icons/fa";
@@ -8,13 +8,15 @@ const Cart = () => {
   const { cart, removeFromCart, addToCart, decreaseQuantity, cartTotal, clearCart } = useCart();
   const { formatPrice, isLoggedIn, setIsAuthModalOpen } = useApp();
 
+  const navigate = useNavigate();
+
   const handleCheckout = () => {
     if (!isLoggedIn) {
       toast.error("Please login to proceed to checkout");
       setIsAuthModalOpen(true);
       return;
     }
-    toast.error("Checkout feature is not available yet! We are working on it.");
+    navigate("/checkout");
   };
 
   if (cart.length === 0) {

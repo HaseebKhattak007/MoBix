@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaTimes, FaUser, FaEnvelope, FaLock, FaPhone, FaCheckCircle, FaGoogle, FaFacebookF } from "react-icons/fa";
 import { useApp } from "../context/AppContext";
 
@@ -13,6 +13,18 @@ const AuthModal = ({ isOpen, onClose }) => {
         confirmPassword: ""
     });
     const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+        if (isOpen) {
+            setFormData({
+                name: "",
+                email: "",
+                phone: "",
+                password: "",
+                confirmPassword: ""
+            });
+        }
+    }, [isOpen]);
 
     if (!isOpen) return null;
 
@@ -72,6 +84,7 @@ const AuthModal = ({ isOpen, onClose }) => {
                                         type="text"
                                         placeholder="Full Name"
                                         required
+                                        autoComplete="off"
                                         className="w-full pl-12 pr-4 py-3.5 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-primary/50 focus:border-primary outline-none transition-all dark:text-white"
                                         value={formData.name}
                                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -97,6 +110,7 @@ const AuthModal = ({ isOpen, onClose }) => {
                                 type="email"
                                 placeholder="Email Address"
                                 required
+                                autoComplete="off"
                                 className="w-full pl-12 pr-4 py-3.5 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-primary/50 focus:border-primary outline-none transition-all dark:text-white"
                                 value={formData.email}
                                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
@@ -109,6 +123,7 @@ const AuthModal = ({ isOpen, onClose }) => {
                                 type="password"
                                 placeholder="Password"
                                 required
+                                autoComplete="off"
                                 className="w-full pl-12 pr-4 py-3.5 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-primary/50 focus:border-primary outline-none transition-all dark:text-white"
                                 value={formData.password}
                                 onChange={(e) => setFormData({ ...formData, password: e.target.value })}

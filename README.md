@@ -116,15 +116,21 @@ npm run dev
 ### 🛒 User Experience
 4. **Shopping Cart** - Multi-product management and checkout flow.
 ![Cart Page](ScreenShots/Cart-page.png)
+![Cart Page](ScreenShots/Cart-page-1.png)
 
 5. **Wishlist** - Save your favorites for later.
 ![Wishlist Page](ScreenShots/Wishlist-page.png)
 
 6. **Account Page** - Personal profile and activity log.
 ![Account Page](ScreenShots/Account-page.png)
+![Account Page](ScreenShots/Edit-Profile.png)
+
+7. **Login & Register** - Secure authentication with persistent sessions.
+![Login Page](ScreenShots/Signin.png)
+![Register Page](ScreenShots/Register.png)
 
 ### 🌓 Aesthetics
-7. **Premium Dark Mode** - Sleek, high-contrast digital experience.
+8. **Premium Dark Mode** - Sleek, high-contrast digital experience.
 ![Dark Mode](ScreenShots/Darkmode.png)
 
 ---

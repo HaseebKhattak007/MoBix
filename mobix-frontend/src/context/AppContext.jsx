@@ -23,8 +23,8 @@ export const AppProvider = ({ children }) => {
             setDarkMode(true);
         }
 
-        const token = localStorage.getItem("mobix_token");
-        const savedUser = localStorage.getItem("mobix_user");
+        const token = sessionStorage.getItem("mobix_token");
+        const savedUser = sessionStorage.getItem("mobix_user");
         if (token && savedUser) {
             setIsLoggedIn(true);
             setUser(JSON.parse(savedUser));
@@ -101,8 +101,8 @@ export const AppProvider = ({ children }) => {
             if (res.ok) {
                 setIsLoggedIn(true);
                 setUser(data.user);
-                localStorage.setItem("mobix_token", data.token);
-                localStorage.setItem("mobix_user", JSON.stringify(data.user));
+                sessionStorage.setItem("mobix_token", data.token);
+                sessionStorage.setItem("mobix_user", JSON.stringify(data.user));
                 toast.success(`Welcome back, ${data.user.name}!`);
                 return true;
             } else {
@@ -126,8 +126,8 @@ export const AppProvider = ({ children }) => {
             if (res.ok) {
                 setIsLoggedIn(true);
                 setUser(data.user);
-                localStorage.setItem("mobix_token", data.token);
-                localStorage.setItem("mobix_user", JSON.stringify(data.user));
+                sessionStorage.setItem("mobix_token", data.token);
+                sessionStorage.setItem("mobix_user", JSON.stringify(data.user));
                 toast.success("Account created successfully!");
                 return true;
             } else {
@@ -143,8 +143,8 @@ export const AppProvider = ({ children }) => {
     const logout = () => {
         setIsLoggedIn(false);
         setUser(null);
-        localStorage.removeItem("mobix_token");
-        localStorage.removeItem("mobix_user");
+        sessionStorage.removeItem("mobix_token");
+        sessionStorage.removeItem("mobix_user");
         toast.error("Logged out successfully");
     };
 

@@ -10,6 +10,7 @@ import Account from "./pages/Account";
 import SuperDeals from "./pages/SuperDeals";
 import Wishlist from "./pages/Wishlist";
 import Brands from "./pages/Brands";
+import Checkout from "./pages/Checkout";
 import AuthModal from "./components/AuthModal";
 
 import { AppProvider, useApp } from "./context/AppContext";
@@ -35,6 +36,7 @@ const AppContent = () => {
           <Route path="/super-deals" element={<SuperDeals />} />
           <Route path="/wishlist" element={<Wishlist />} />
           <Route path="/brands" element={<Brands />} />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </BrowserRouter>
     </div>
