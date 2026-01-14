@@ -7,7 +7,7 @@ dotenv.config();
 const products = [
     {
         name: "Apple iPhone 15 Pro",
-        price: 920,
+        price: 620,
         image: "/images/iphone15.jpg",
         category: "Smartphones & Tablets",
         brand: "Apple",
@@ -17,7 +17,7 @@ const products = [
     },
     {
         name: "Samsung Galaxy S23 Ultra",
-        price: 880,
+        price: 680,
         image: "/images/samsung_s23.jpg",
         category: "Smartphones & Tablets",
         brand: "Samsung",
@@ -27,7 +27,7 @@ const products = [
     },
     {
         name: "Google Pixel 8 Pro",
-        price: 780,
+        price: 600,
         image: "/images/google-pixel-8-pro.jpg",
         category: "Smartphones & Tablets",
         brand: "Google",
@@ -37,7 +37,7 @@ const products = [
     },
     {
         name: "Sony Alpha A7 IV",
-        price: 2200,
+        price: 3550,
         image: "/images/Sony-A7.jpg",
         category: "Cameras & Photos",
         brand: "Sony",
@@ -77,7 +77,7 @@ const products = [
     },
     {
         name: "Nintendo Switch OLED",
-        price: 349,
+        price: 249,
         image: "/images/Switch.jpg",
         category: "Video Games & Consoles",
         brand: "Nintendo",
@@ -87,7 +87,7 @@ const products = [
     },
     {
         name: "PlayStation 5 DualSense",
-        price: 699,
+        price: 105,
         image: "/images/PS-dualsense.png",
         category: "Video Games & Consoles",
         brand: "Sony",
@@ -97,7 +97,7 @@ const products = [
     },
     {
         name: "Sony WH-1000XM5",
-        price: 199,
+        price: 80,
         image: "/images/sony-wh-.jpg",
         category: "TV & Audio",
         brand: "Sony",
@@ -107,7 +107,7 @@ const products = [
     },
     {
         name: "Bose QuietComfort Ultra",
-        price: 129,
+        price: 72,
         image: "/images/headset.jpg",
         category: "TV & Audio",
         brand: "Bose",
@@ -117,7 +117,7 @@ const products = [
     },
     {
         name: "Logitech G Pro X",
-        price: 429,
+        price: 110,
         image: "/images/logitech.jpg",
         category: "Accessories",
         brand: "Logitech",
@@ -127,7 +127,7 @@ const products = [
     },
     {
         name: "Razer BlackWidow V4",
-        price: 129,
+        price: 115,
         image: "/images/Razer-BlackWidow-V4.jpg",
         category: "Accessories",
         brand: "Razer",
@@ -137,7 +137,7 @@ const products = [
     },
     {
         name: "Apple Watch Series 9",
-        price: 399,
+        price: 329,
         image: "/images/watch.jpg",
         category: "Gadgets",
         brand: "Apple",
