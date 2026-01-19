@@ -26,8 +26,8 @@ const Hero = () => {
 
     return (
         <section className="bg-white dark:bg-gray-900 relative overflow-hidden transition-colors duration-300">
-            <div className="max-w-7xl mx-auto px-4 flex">
-                <aside className="hidden lg:block w-[280px] bg-white dark:bg-gray-900 border-x border-b border-gray-100 dark:border-gray-800 shadow-sm z-20 transition-colors">
+            <div className="max-w-7xl mx-auto px-4 flex ">
+                <aside className="hidden lg:block w-[300px] bg-white dark:bg-gray-900 border-x border-b border-gray-100 dark:border-gray-800 shadow-sm z-20 transition-colors">
                     <ul className="py-2">
                         <li
                             className={`px-8 py-3.5 hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center justify-between group cursor-pointer transition-colors ${selectedCategory === "All" ? "bg-gray-50 dark:bg-gray-800 text-primary" : ""}`}
@@ -54,7 +54,7 @@ const Hero = () => {
 
                 <div className="flex-1 lg:pl-12 py-12 md:py-24 relative min-h-[500px] flex items-center">
                     {/* Background Image Layer */}
-                    <div className="absolute right-0 top-0 w-full h-full opacity-20 md:opacity-100 pointer-events-none z-0 overflow-hidden">
+                    <div className="absolute right-[-200px] top-0 w-full h-full opacity-20 md:opacity-100 pointer-events-none z-0 overflow-hidden">
                         <img
                             src={heroImage}
                             alt="Hero"
